@@ -8,10 +8,10 @@ import ProductList from './components/productList/productList';
 import cart from './components/cart/cart';
 
 function App() {
-  //const {onToggleButton} = useTelegram();
-  <div>пупупу</div>
-}
-/*   useEffect( () => {
+  return ( <div>ааа</div> )
+  
+/*  const {onToggleButton} = useTelegram();
+ useEffect( () => {
     tg.ready();
     }, []) 
     
@@ -25,8 +25,8 @@ function App() {
   <Route path={'Cart'} element={<cart />} />
 </Routes>
     </div>
-  );
-} */
+  ); */
+  }
 
 
 
