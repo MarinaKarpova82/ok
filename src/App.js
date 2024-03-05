@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useTelegram } from './components/hooks/useTelegtam';
 import Header from './components/Header/Header';
 import {Route, Routes} from 'react-router-dom';
-import ProductList from './components/ProductList/ProductList';
+import ProductList from './components/productList/productList';
 import Cart from './components/cart/cart';
 
 function App() {
