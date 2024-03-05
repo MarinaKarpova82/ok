@@ -3,7 +3,7 @@ import './App.css';
 import { useEffect } from 'react';
 import { useTelegram } from './components/hooks/useTelegtam';
 import Header from './components/Header/Header';
-import {Route, Routes} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom';
 import ProductList from './components/ProductList/ProductList';
 import Cart from './components/cart/cart';
 
@@ -26,9 +26,6 @@ function App() {
 </Routes>
     </div>
   ); 
-
   }
-
-
 
 export default App;
