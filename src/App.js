@@ -4,13 +4,13 @@ import { useEffect } from 'react';
 import { useTelegram } from './components/hooks/useTelegtam';
 import Header from './components/Header/Header';
 import {Route, Routes} from 'react-router-dom'
-import ProductList from './components/productList/productList';
-import cart from './components/cart/cart';
+import ProductList from './components/ProductList/ProductList';
+import Cart from './components/cart/cart';
 
 function App() {
-  return ( <div>ааа</div> )
   
-/*  const {onToggleButton} = useTelegram();
+//const {onToggleButton} = useTelegram();
+
  useEffect( () => {
     tg.ready();
     }, []) 
@@ -22,10 +22,11 @@ function App() {
       <Header />
       <Routes>
 	<Route index element={<ProductList  />} /> 
-  <Route path={'Cart'} element={<cart />} />
+  <Route path={'cart'} element={<Cart />} />
 </Routes>
     </div>
-  ); */
+  ); 
+
   }
 
 
