@@ -3,7 +3,9 @@ import './App.css';
 import { useEffect } from 'react';
 import { useTelegram } from './components/hooks/useTelegtam';
 import Header from './components/Header/Header';
-
+import {Route, Routes} from 'react-router-dom'
+import ProductList from './components/productList/productList';
+import cart from './components/cart/cart';
 
 function App() {
   const {onToggleButton} = useTelegram();
@@ -17,7 +19,10 @@ function App() {
 
     <div className="App">
       <Header />
-     <button onClick={onToggleButton}>toggle</button>
+      <Routes>
+	<Route index element={<ProductList  />} /> 
+  <Route path={'Cart'} element={<cart />} />
+</Routes>
     </div>
   );
 }
