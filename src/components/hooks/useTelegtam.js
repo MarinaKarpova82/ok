@@ -18,5 +18,6 @@ return {
     onToggleButton,
 tg,
 user: tg.initDataUnsefe?.user,
+queryId: tg.initDataUnsefe?.query_id,
 }
 }
